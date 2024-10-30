@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+// Check whether all the words in the list contain the letter 'n'
 public class Task05 {
 
     public static void main(String[] args) {

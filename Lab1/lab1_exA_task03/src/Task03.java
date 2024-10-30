@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+// Determine the average of all the integer numbers in a list
 public class Task03 {
 
     public static void main(String[] args) {

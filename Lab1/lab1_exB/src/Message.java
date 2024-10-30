@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+// Debugging exercise
 public class Message {
     private static Map<Integer,String> map = new HashMap<>();
 

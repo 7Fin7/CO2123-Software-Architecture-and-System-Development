@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+// Check whether list contains value
 public class Task04 {
 
     public static void main(String[] args) {

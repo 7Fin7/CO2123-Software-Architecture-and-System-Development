@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+// Loop through items in ArrayList
 public class Task02 {
 
     public static void main(String[] args) {
