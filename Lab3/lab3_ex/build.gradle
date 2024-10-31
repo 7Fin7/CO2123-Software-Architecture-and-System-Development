@@ -1,7 +1,7 @@
 plugins {
-    id 'java'
-    id 'org.springframework.boot' version '3.3.4'
-    id 'io.spring.dependency-management' version '1.1.6'
+    id 'java'   // Allows Java to be compiled (alongside other features)
+    id 'org.springframework.boot' version '3.3.4'   // Allows Spring Boot projects to work so we can create web applications
+    id 'io.spring.dependency-management' version '1.1.6'    // Controls all the project dependencies
 }
 
 group = 'org.example'

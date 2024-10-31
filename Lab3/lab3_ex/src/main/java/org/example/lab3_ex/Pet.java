@@ -1,5 +1,6 @@
 package org.example.lab3_ex;
 
+// Simple Pet class
 public class Pet {
     private String name;
     private String species;

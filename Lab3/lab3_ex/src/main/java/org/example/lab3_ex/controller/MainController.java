@@ -46,7 +46,7 @@ public class MainController {
             sequence = sequence.concat("Hello. ");
         }
         model.addAttribute("total", sequence);  // Add the repeated string to the model
-        // ALTERNATIVE METHOD
+        // ALTERNATIVE METHOD:
         // String repeatedValue = "Hello. ".repeat(number);  // Repeat "Hello. " based on the number
         return "number";
     }
