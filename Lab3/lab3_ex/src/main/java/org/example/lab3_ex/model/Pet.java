@@ -1,4 +1,4 @@
-package org.example.lab3_ex;
+package org.example.lab3_ex.model;
 
 // Simple Pet class
 public class Pet {

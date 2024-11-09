@@ -1,6 +1,6 @@
 package org.example.lab3_ex.controller;
 
-import org.example.lab3_ex.Pet;
+import org.example.lab3_ex.model.Pet;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.util.Collection;
-import java.util.List;
+import java.util.ArrayList;
 
 @Controller
 public class MainController {
@@ -52,7 +51,7 @@ public class MainController {
     }
 
     @RequestMapping("/sum")
-    public String exE(@RequestParam("values") List<Integer> values, Model model) {
+    public String exE(@RequestParam("values") ArrayList<Integer> values, Model model) {
 
         // Initialise a variable to store sum
         int sum = 0;
