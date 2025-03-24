@@ -15,7 +15,7 @@ public class Hotel {
     private String name;
     private String description;
 
-    @JoinColumn    // Indicates that the foreign key column for the relationship will be in the "Room" table
     @OneToMany    // Defines a one-to-many relationship between Hotel and Room (one hotel can have many rooms)
+    @JoinColumn(name = "hotel_id")   // Indicates that the foreign key column for the relationship will be in the "Room" table
     private List<Room> rooms;
 }
